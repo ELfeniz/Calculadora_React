@@ -1,0 +1,14 @@
+.input{
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-end;  /* para que el texto se alinie hacia la derecha*/
+    align-items: center;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #0a0a23;
+    padding: 11px 30px 11px 30px;
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px;   /* agregar sombras */
+}

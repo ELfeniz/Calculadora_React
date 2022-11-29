@@ -1,0 +1,28 @@
+.boton-contenedor{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;   /*  peso de la letra */
+    font-size: 38px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid wheat;
+    margin: 4px;
+    cursor: pointer;        /*  para que cambie el cursor cuando este el cursos por encima del boton */
+    user-select: none;    /*  el texto no se pueda seleccionar con el raton*/
+    flex: 1 1;       /*  cuanto s epuede expandir o encoger el boton cuando existen otros componentes */
+}
+
+.boton-contenedor:hover{  /*  cuando el mouse esta encima del boton */
+    background-color: blueviolet;
+}
+
+.operador{
+    background-color: green;
+}
+
+.operador:hover{
+    background-color: rgb(235, 114, 33);
+}

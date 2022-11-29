@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html{
+
+  background-color: rgb(46, 18, 168);
+}
+
+.App{
+  padding: 0;
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;  /* para que todo los elementos se vayan ajustando dependiendo de su tamaño */
+  justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  align-items: center;
+}
+
+.logo-cotenedor{
+
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  
+}
+
+.logo_del_contenedor{
+
+  width: 1500px;
+  height: 400px;  /* altura */
+}
+
+.contenedor-calculadora{
+  width: 700px;   /* anchura*/
+  height: 640px;
+  padding: 14px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  border: 5px solid white;
+
+}
+
+.fila{
+  margin: 4px;
+  display: flex;    /* para que todos los elementos se muestren en una sola linea*/
+  align-items: center;
+  justify-content: center;
+}
